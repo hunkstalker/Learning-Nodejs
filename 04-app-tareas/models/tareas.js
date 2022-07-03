@@ -16,12 +16,41 @@ class Tareas {
   }
 
   cargarTareasFromArray(tareas = []) {
-    this._listado[tarea.id] = tarea;
+    tareas.forEach((tarea) => {
+      this._listado[tarea.id] = tarea;
+    });
   }
 
   crearTarea(descr = '') {
     const tarea = new Tarea(descr);
     this._listado[tarea.id] = tarea;
+  }
+
+  listadoCompleto() {
+    console.log();
+    this.listadoArray.forEach((tarea, i) => {
+      const index = `${i + 1}`.green;
+      const { descripcion, completadoEn } = tarea;
+      const estado = completadoEn ? 'Completada'.green : 'Pendiente'.red;
+
+      console.log(`${index}. ${descripcion} :: ${estado}`);
+    });
+  }
+
+  listarCompletadosPendientes(completadas = true) {
+    console.log();
+    let index = 0;
+    this.listadoArray.forEach((tarea) => {
+      const { descripcion, completadoEn } = tarea;
+      const estado = completadoEn ? 'Completada'.green : 'Pendiente'.red;
+      if (completadas) {
+        index++;
+        if (completadoEn) console.log(`${index.toString().green}. ${descripcion} :: ${estado}`);
+      } else {
+        index++;
+        if (!completadoEn) console.log(`${index.toString().green}. ${descripcion} :: ${estado}`);
+      }
+    });
   }
 }
 

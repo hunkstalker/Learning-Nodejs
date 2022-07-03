@@ -1,12 +1,1 @@
-[
-  {
-    "id": "437c08da-d8cf-4d1b-a233-5b7608cbdd7e",
-    "descripcion": "Recolectar gambas",
-    "completadoEn": null
-  },
-  {
-    "id": "fb16d342-b876-47eb-b04c-c4f66d7e36fd",
-    "descripcion": "Comer chucherías",
-    "completadoEn": null
-  }
-]
+[{"id":"437c08da-d8cf-4d1b-a233-5b7608cbdd7e","descripcion":"Recolectar gambas","completadoEn":"Completadas"},{"id":"fb16d342-b876-47eb-b04c-c4f66d7e36fd","descripcion":"Cultivar chucherías","completadoEn":null},{"id":"cd55cce7-768f-415c-80d0-dae9e618540b","descripcion":"Encontrar las gemas del Infinito","completadoEn":null},{"id":"feb7ab2d-9c86-456d-bbf4-56d669d4c0f0","descripcion":"Gema del Tiempo","completadoEn":null},{"id":"5e1c9d17-df70-4067-99e3-2bceda3136bb","descripcion":"Gema del Espacio","completadoEn":null},{"id":"24396aa2-4746-4463-aa44-1269aefd5456","descripcion":"Gema de la Mente","completadoEn":null},{"id":"e0f27d2c-ded5-4104-aa32-e0fc4bb822f1","descripcion":"Gema de la Realidad","completadoEn":null},{"id":"9c018f6c-aadc-484a-a9f5-f896320abd13","descripcion":"Gema del Poder","completadoEn":null},{"id":"91360b01-816f-4fe0-8470-651fe8ad7584","descripcion":"Cheeki Breeki","completadoEn":null}]

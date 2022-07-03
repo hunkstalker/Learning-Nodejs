@@ -1,5 +1,7 @@
 require('colors');
 
+// NO SE USA, ES EL ANTIGUO ANTES DEL INQUIRER
+
 const mostrarMenu = () => {
   return new Promise((resolve) => {
     console.clear();
@@ -13,7 +15,7 @@ const mostrarMenu = () => {
     console.log(`${'4.'.green} Lista de tareas pendientes`);
     console.log(`${'5.'.green} Completar tareas`);
     console.log(`${'6.'.green} Borrar tarea`);
-    console.log(`${'0.'.green} Salir\n`);
+    console.log(`${'0.'.green} Salir`);
 
     const readline = require('readline').createInterface({
       input: process.stdin,

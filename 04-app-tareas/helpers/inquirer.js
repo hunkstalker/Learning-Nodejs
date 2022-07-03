@@ -56,11 +56,12 @@ const pausa = async () => {
       message: `Presiona ${'ENTER'.green} para continuar`,
     },
   ];
-  console.log(`\n`);
+  console.log(``);
   await inquirer.prompt(message);
 };
 
 const leerInput = async (message) => {
+  console.log();
   const question = {
     type: 'input',
     name: 'descr',
